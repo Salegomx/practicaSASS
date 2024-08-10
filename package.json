@@ -1,0 +1,11 @@
+{
+  "name": "practicasass",
+  "version": "1.0.0",
+  "description": "Practica de SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch --style=compressed ./scss/style.scss ./css/style.css"
+  },
+  "author": "Sergio Gomez",
+  "license": "ISC"
+}

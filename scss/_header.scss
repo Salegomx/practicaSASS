@@ -1,0 +1,12 @@
+.header {
+    .innerHeader {
+        display: flex;
+        justify-content: end;
+        padding-block: 0.5rem;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem
+        }
+    }
+}

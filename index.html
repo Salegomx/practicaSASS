@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="innerHeader container">
+            <nav class="navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>Section</li>
+                    <li>Servicios</li>
+                    <li>Galeria</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <h1 class="title">Aprendiendo SASS</h1>
+            <section>
+                <h2 class="title">Comandos para ejecutar</h2>
+                <ul class="commands">
+                    <li>npm init <b>// Iniciar un proyecto con un archivo package.json</b></li>
+                    <li>"sass": "sass --watch --style=compressed ./scss/style.scss ./css/style.css" <b>// Script para observar los cambios en el archivo .scss</b></li>
+                    <li>npm run sass <b>// Se ejecuta el script y la consola comienza a observar los cambios</b></li>
+                </ul>
+            </section>
+            <section>
+                <h2 class="title">Para que sirve el archivo .map?</h2>
+                <p class="pagraph">El archivo .map sirve para "mapear" o "rastrear" los cambios que se van haciendo en scss y css. Está destinado a entornos de desarrollo y no se debe incluir en entornos de produccion para aspi reducir el tamaño de recursos enviados al navegador</p>
+            </section>
+        </div>
+        <br>
+        <div class="container">
+            <div class="card">
+                <img src="./img/images.png" alt="SASS">
+                <div class="card-text">
+                    <h3>SASS</h3>
+                    <p class="card-text_parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nostrum similique, tempore expedita minima quae facilis dolores harum nisi saepe temporibus quia quisquam pariatur iusto iure eligendi! Nulla, rerum tempore.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="sergioGomez-btn-primary">Boton primario</button>
+            <button class="sergioGomez-btn-success">Boton success</button>
+            <button class="sergioGomez-btn-danger">Boton danger</button>
+        </div>
+        <div>
+            <button class="btn-outline btn-outline-primary">Boton primario</button>
+            <button class="btn-outline btn-outline-success">Boton success</button>
+            <button class="btn-outline btn-outline-danger">Boton danger</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footerStamp">
+            <span class="footerStamp"><script>document.write(new Date().getFullYear())</script>© | Sergio Gómez</span>
+        </div>
+    </footer>
+</body>
+</html>
